@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="/css/chat.css" />
+  </head>
+  <body>
+  <div class = "border">
+    <ul class= "nav-bar">
+      <li class="nav"><a class="active" href="/html/chat.html">Group Chat</a></li>
+      <li class="nav"><a href="/html/users.html"  id="btn">Manage Users</a></li>
+      <li class="nav"><a href="/html/logout.html" onclick="logout()">Logout</a></li>
+    </ul><br/>
+<hr/>
+<div clsss="container-1">
+      <h3>Group Chat</h3> <span><button class="cross">X</button></span>
+      <hr/>
+</div>
+
+<div class="container-2">
+  <ul class="ul" id="list">
+  </ul>
+ </div>
+  <hr/>
+  <div class="container-3">
+    <label class= "message"> <b><span id="userName"></span></b></label>
+    <input class = "width" type= "text" id="msgText"></input>
+    <button id="sendBtn" onclick="msgFunction()">Send</button>
+    <button onclick="refresh()">Refresh</button>
+  </div>
+     </br>
+     </br>
+     </br>
+     </br>
+  </div>
+  <script src="../js/chat.js"></script>
+  </body>
+</html>

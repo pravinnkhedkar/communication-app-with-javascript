@@ -1,0 +1,123 @@
+div {
+    text-align: center;
+  }
+  
+  table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    background-color: lightgrey;
+    color: black;
+    column-width: 450px;
+    
+  }
+  
+  .left-align{
+    text-align: left;
+  }
+  
+  .th1{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    width: 426px; 
+    background-color: grey;
+  }
+
+  .th2{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    width: 637px; 
+    background-color: grey;
+  }
+
+  td{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  tr{
+    padding: 25px;
+    height: 35px;
+  }
+  a {
+    text-decoration: none;
+  }
+ 
+  .nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+    border: 1px solid black;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid black;
+    width: 33.25%;
+  }
+  
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: lightgrey;
+  }
+  
+  .active {
+    background-color:aqua;
+  }
+  
+  
+  .container {
+    position:absolute;
+    z-index: 2; 
+    background:white;
+    width: 22%;
+    left: 480px;
+    top: -15px;
+    height: 200px;
+    margin-top: 200px;
+    border: solid black 1.5px;
+    border-radius: 6px;
+  }
+  button{
+    border-radius: 8px;
+    padding: 5px;
+    width: 60px;
+    margin: 5px;
+    display: inline-block;
+    border-color: black;
+}
+
+.cross{
+  width: 25px;
+  padding: 1px;
+  border-radius: 5px;
+  background-color: white;
+  float: right;
+  margin-top: 0.1px;
+}
+.pop-up{
+  border-bottom: solid black 2px;
+  text-align: center;
+  margin-top: 1px;
+}
+.img{
+  margin-top: auto;
+}
+button:hover:not(.active) { 
+  background-color: aqua;
+}
+  

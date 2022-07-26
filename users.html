@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="/css/users.css" />
+  </head>
+  <style>
+    tr:nth-child(odd) {
+      background-color: #f2f2f2;
+    }
+  </style>
+  <body >
+    <ul class="nav-bar">
+      <li><a href="/html/chat.html">Group Chat</a></li>
+      <li><a class="active" href="/html/users.html" id="root" >Manage Users</a></li>
+      <li><a href="/html/logout.html">Logout</a></li>
+    </ul>
+    <h2>Users</h2>
+    <table>
+      <tr>
+        <th class="th1">Name</th>
+        <th class="th2">User Email ID</th>
+        <th style="background-color:grey;"></th>
+      </tr>
+    </table>
+    <table id="showUsers">
+    </table>
+    <script src="../js/register.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,12 @@
+
+  a:hover {
+    color: blue;
+  }
+  /* selected link */
+  a:active {
+    color: purple;
+  }
+
+  div {
+    text-align: center;
+  }
